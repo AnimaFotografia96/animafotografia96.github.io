@@ -43,7 +43,7 @@ nav{
 }
 .hero-img{
   position:absolute;inset:0;
-  background:url('./img_071.jpg') center/cover no-repeat;
+  background:url('https://animafotografia96.github.io/img_071.jpg') center/cover no-repeat;
   filter:brightness(0.55);
   transform:scale(1.03);
   transition:transform 8s ease;
@@ -179,6 +179,7 @@ nav{
   border:1px solid rgba(255,255,255,0.06);
   margin-top:3rem;
 }
+@media(max-width:768px){.services-grid{grid-template-columns:1fr;}}
 .service-item{
   padding:2.5rem 2rem;background:var(--bg);
   transition:background 0.3s;
@@ -230,10 +231,9 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
 
 /* FADE IN */
 .fade-in{
-  opacity:0;transform:translateY(20px);
-  transition:opacity 0.8s ease,transform 0.8s ease;
+  opacity:1;transform:none;
 }
-.fade-in.visible{opacity:1;transform:translateY(0)}
+.fade-in.visible{opacity:1;transform:none;}
 
 /* LIGHTBOX */
 .lightbox {
@@ -295,9 +295,9 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
 </nav>
 
 <section class="hero">
-  <div class="hero-img" style="background:url('./img_071.jpg') center/cover no-repeat;filter:brightness(0.55);transform:scale(1.03);transition:transform 8s ease;"></div>
+  <div class="hero-img" style="background:url('https://animafotografia96.github.io/img_071.jpg') center/cover no-repeat;filter:brightness(0.55);transform:scale(1.03);transition:transform 8s ease;"></div>
   <div class="hero-content">
-    <p class="hero-eyebrow">La Plata, Argentina</p>
+    <p class="hero-eyebrow">Fotografía documental · La Plata, Argentina</p>
     <h1 class="hero-title">Fotografía<br>que detiene<br>el tiempo</h1>
     <p class="hero-sub">Encuentro lo extraordinario en lo que todos pasan por alto. Cada imagen es un umbral entre lo que se ve y lo que se siente.</p>
   </div>
@@ -320,76 +320,86 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
   </div>
   <div class="grid-featured fade-in">
         <div class="photo-item tall" style="height:640px" onclick="openLightbox(this)">
-      <img src="./img_024.jpg" alt="Bar luces" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_024.jpg" alt="Bar luces" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Ambiente</p><p class="photo-title">El templo nocturno</p></div>
     </div>
         <div class="photo-item" style="height:318px" onclick="openLightbox(this)">
-      <img src="./img_027.jpg" alt="Chef mirada" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_027.jpg" alt="Chef mirada" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">La concentración</p></div>
     </div>
         <div class="photo-item" style="height:318px" onclick="openLightbox(this)">
-      <img src="./img_025.jpg" alt="Araña mandala" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_025.jpg" alt="Araña mandala" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Detalle</p><p class="photo-title">Mandala de luz</p></div>
     </div>
         <div class="photo-item" style="height:318px" onclick="openLightbox(this)">
-      <img src="./img_026.jpg" alt="Chef retrato" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_026.jpg" alt="Chef retrato" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">El momento del respiro</p></div>
     </div>
         <div class="photo-item" style="height:318px" onclick="openLightbox(this)">
-      <img src="./img_028.jpg" alt="Chef logo" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_028.jpg" alt="Chef logo" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">El gaucho</p></div>
     </div>
   </div>
   <div class="grid-masonry fade-in" style="margin-top:2px">
         <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
-      <img src="./img_029.jpg" alt="Chef blanco negro" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_029.jpg" alt="Chef blanco negro" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">El amasado</p></div>
     </div>
         <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
-      <img src="./img_030.jpg" alt="Pan" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_030.jpg" alt="Pan" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">El pan como obra</p></div>
     </div>
         <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
-      <img src="./img_031.jpg" alt="Café libro" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_031.jpg" alt="Café libro" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">El ritual del café</p></div>
     </div>
   </div>
   <div class="grid-masonry fade-in" style="margin-top:2px">
         <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
-      <img src="./img_032.jpg" alt="Cóctel cítrico" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_032.jpg" alt="Cóctel cítrico" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Coctelería</p><p class="photo-title">La precisión</p></div>
     </div>
         <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
-      <img src="./img_033.jpg" alt="Cóctel naranja" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_033.jpg" alt="Cóctel naranja" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Coctelería</p><p class="photo-title">Noche en copa</p></div>
     </div>
         <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
-      <img src="./img_034.jpg" alt="Cóctel oscuro" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_034.jpg" alt="Cóctel oscuro" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Coctelería</p><p class="photo-title">Luz y ritual</p></div>
     </div>
   </div>
   <div class="grid-masonry fade-in" style="margin-top:2px">
         <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
-      <img src="./img_035.jpg" alt="Moro botellas" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_035.jpg" alt="Moro botellas" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">Detrás del vidrio</p></div>
     </div>
         <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
-      <img src="./img_036.jpg" alt="Vino" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_036.jpg" alt="Vino" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">El ritual del vino</p></div>
     </div>
         <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
-      <img src="./img_037.jpg" alt="Copa vino" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_037.jpg" alt="Copa vino" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">Burbujas en rojo</p></div>
     </div>
   </div>
   <div class="grid-duo fade-in" style="margin-top:2px">
         <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
-      <img src="./img_038.jpg" alt="Plato sol" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_038.jpg" alt="Plato sol" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">Mesa al sol</p></div>
     </div>
         <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
-      <img src="./img_039.jpg" alt="Plato lámpara" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_039.jpg" alt="Plato lámpara" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">Obra en plato</p></div>
+    </div>
+  </div>
+  <div class="grid-duo fade-in" style="margin-top:2px">
+        <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
+      <img src="https://animafotografia96.github.io/img_072.jpg" alt="Porta-filtro con café molido" loading="lazy">
+      <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">La medida exacta</p></div>
+    </div>
+        <div class="photo-item" style="height:380px" onclick="openLightbox(this)">
+      <img src="https://animafotografia96.github.io/img_073.jpg" alt="Sirviendo café helado" loading="lazy">
+      <div class="photo-overlay"><p class="photo-cat">Gastronomía</p><p class="photo-title">El gesto cotidiano</p></div>
     </div>
   </div>
 
@@ -401,16 +411,20 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
   </div>
   <div class="grid-masonry fade-in">
         <div class="photo-item" style="height:460px" onclick="openLightbox(this)">
-      <img src="./img_021.jpg" alt="Barbero" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_021.jpg" alt="Barbero" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Documental</p><p class="photo-title">El arte del filo</p></div>
     </div>
         <div class="photo-item" style="height:460px" onclick="openLightbox(this)">
-      <img src="./img_022.jpg" alt="Soldador" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_022.jpg" alt="Soldador" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Retrato</p><p class="photo-title">El maestro enmascarado</p></div>
     </div>
-        <div class="photo-item" style="height:460px" onclick="openLightbox(this)">
-      <img src="./img_023.jpg" alt="Soldadura chispas" loading="lazy">
-      <div class="photo-overlay"><p class="photo-cat">Documental</p><p class="photo-title">Fuego propio</p></div>
+    <div class="photo-item" style="height:460px" onclick="openLightbox(this)">
+      <img src="https://animafotografia96.github.io/img_009.jpg" alt="Pintora con lienzo" loading="lazy">
+      <div class="photo-overlay"><p class="photo-cat">Oficio</p><p class="photo-title">La pintora en su mundo</p></div>
+    </div>
+    <div class="photo-item" style="height:460px" onclick="openLightbox(this)">
+      <img src="https://animafotografia96.github.io/img_074.jpg" alt="Soldador trabajando" loading="lazy">
+      <div class="photo-overlay"><p class="photo-cat">Documental</p><p class="photo-title">El pulso del metal</p></div>
     </div>
   </div>
 
@@ -422,38 +436,31 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
   </div>
   <div class="grid-featured fade-in">
     <div class="photo-item tall" style="height:620px" onclick="openLightbox(this)">
-      <img src="./img_008.jpg" alt="Ojos cerrados" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_008.jpg" alt="Ojos cerrados" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Retrato</p><p class="photo-title">Dentro</p></div>
     </div>
     <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_007.jpg" alt="Luz roja" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_007.jpg" alt="Luz roja" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Retrato</p><p class="photo-title">Luz propia</p></div>
     </div>
+
     <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_070.jpg" alt="Artista pintora" loading="lazy">
-      <div class="photo-overlay"><p class="photo-cat">Retrato</p><p class="photo-title">La artista</p></div>
-    </div>
-    <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_004.jpg" alt="Retrato mujer rizada" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_004.jpg" alt="Retrato mujer rizada" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Retrato</p><p class="photo-title">Luz natural</p></div>
     </div>
     <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_005.jpg" alt="Retrato lluvia" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_005.jpg" alt="Retrato lluvia" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Retrato</p><p class="photo-title">Lluvia interior</p></div>
     </div>
-  </div>
-  <div class="grid-masonry fade-in" style="margin-top:2px">
-    <div class="photo-item" style="height:420px" onclick="openLightbox(this)">
-      <img src="./img_009.jpg" alt="Pintora con lienzo" loading="lazy">
-      <div class="photo-overlay"><p class="photo-cat">Retrato</p><p class="photo-title">La creadora</p></div>
-    </div>
-    <div class="photo-item" style="height:420px" onclick="openLightbox(this)">
-      <img src="./img_006.jpg" alt="Retrato masculino humo" loading="lazy">
-      <div class="photo-overlay"><p class="photo-cat">Retrato</p><p class="photo-title">El velo de humo</p></div>
-    </div>
-    <div class="photo-item" style="height:420px" onclick="openLightbox(this)">
-      <img src="./img_010.jpg" alt="Retrato masculino cigarro" loading="lazy">
+    <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
+      <img src="https://animafotografia96.github.io/img_010.jpg" alt="Retrato masculino cigarro" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Retrato</p><p class="photo-title">Presencia</p></div>
+    </div>
+  </div>
+  <div class="grid-featured fade-in" style="margin-top:2px">
+    <div class="photo-item" style="height:480px;grid-column:1 / -1" onclick="openLightbox(this)">
+      <img src="https://animafotografia96.github.io/img_077.jpg" alt="Retrato blanco y negro mirada" loading="lazy">
+      <div class="photo-overlay"><p class="photo-cat">Retrato</p><p class="photo-title">Mirada de cerca</p></div>
     </div>
   </div>
 
@@ -465,16 +472,16 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
   </div>
   <div class="grid-masonry fade-in">
     <div class="photo-item" style="height:460px" onclick="openLightbox(this)">
-      <img src="./img_001.jpg" alt="Casamiento niño" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_001.jpg" alt="Casamiento niño" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Bodas</p><p class="photo-title">El momento exacto</p></div>
     </div>
     <div class="photo-item" style="height:460px" onclick="openLightbox(this)">
-      <img src="./img_002.jpg" alt="Ceremonia" loading="lazy">
-      <div class="photo-overlay"><p class="photo-cat">Bodas</p><p class="photo-title">El momento en que todo cambia</p></div>
+      <img src="https://animafotografia96.github.io/img_003.jpg" alt="Pareja tormenta" loading="lazy">
+      <div class="photo-overlay"><p class="photo-cat">Parejas</p><p class="photo-title">Antes de la tormenta</p></div>
     </div>
     <div class="photo-item" style="height:460px" onclick="openLightbox(this)">
-      <img src="./img_003.jpg" alt="Pareja tormenta" loading="lazy">
-      <div class="photo-overlay"><p class="photo-cat">Parejas</p><p class="photo-title">Antes de la tormenta</p></div>
+      <img src="https://animafotografia96.github.io/img_002.jpg" alt="Ceremonia" loading="lazy">
+      <div class="photo-overlay"><p class="photo-cat">Bodas</p><p class="photo-title">El momento en que todo cambia</p></div>
     </div>
   </div>
 
@@ -486,55 +493,55 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
   </div>
   <div class="grid-featured fade-in">
         <div class="photo-item tall" style="height:620px" onclick="openLightbox(this)">
-      <img src="./img_011.jpg" alt="Jinete flores" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_011.jpg" alt="Jinete flores" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Ecuestre</p><p class="photo-title">Entre flores y polvo</p></div>
     </div>
         <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_012.jpg" alt="Ojo caballo" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_012.jpg" alt="Ojo caballo" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Detalle</p><p class="photo-title">La mirada que conecta</p></div>
     </div>
         <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_016.jpg" alt="Caballo galope" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_016.jpg" alt="Caballo galope" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Ecuestre</p><p class="photo-title">Pura fuerza</p></div>
     </div>
         <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_018.jpg" alt="Hocico" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_018.jpg" alt="Hocico" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Detalle</p><p class="photo-title">El aliento</p></div>
     </div>
         <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_019.jpg" alt="Entrenamiento" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_019.jpg" alt="Entrenamiento" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Ecuestre</p><p class="photo-title">El círculo del trabajo</p></div>
     </div>
   </div>
   <div class="grid-masonry fade-in" style="margin-top:2px">
     <div class="photo-item" style="height:440px" onclick="openLightbox(this)">
-      <img src="./img_013.jpg" alt="Caballo negro jinete" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_013.jpg" alt="Caballo negro jinete" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Ecuestre</p><p class="photo-title">El vuelo bajo</p></div>
     </div>
     <div class="photo-item" style="height:440px" onclick="openLightbox(this)">
-      <img src="./img_014.jpg" alt="Jinete caballo blanco flores" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_014.jpg" alt="Jinete caballo blanco flores" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Ecuestre</p><p class="photo-title">Entre flores de primavera</p></div>
     </div>
     <div class="photo-item" style="height:440px" onclick="openLightbox(this)">
-      <img src="./img_015.jpg" alt="Caballo castaño frontal" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_015.jpg" alt="Caballo castaño frontal" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Ecuestre</p><p class="photo-title">Cara a cara</p></div>
     </div>
   </div>
   <div class="grid-featured fade-in" style="margin-top:2px">
     <div class="photo-item tall" style="height:560px" onclick="openLightbox(this)">
-      <img src="./img_065.jpg" alt="Caballo polvo acción" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_065.jpg" alt="Caballo polvo acción" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Ecuestre</p><p class="photo-title">Tierra y velocidad</p></div>
     </div>
     <div class="photo-item" style="height:278px" onclick="openLightbox(this)">
-      <img src="./img_017.jpg" alt="Caballo blanco coz flores" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_017.jpg" alt="Caballo blanco coz flores" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Ecuestre</p><p class="photo-title">La coz libre</p></div>
     </div>
     <div class="photo-item" style="height:278px" onclick="openLightbox(this)">
-      <img src="./img_064.jpg" alt="Caballo perro atardecer" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_064.jpg" alt="Caballo perro atardecer" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Campo</p><p class="photo-title">El guardián del campo</p></div>
     </div>
     <div class="photo-item" style="height:278px" onclick="openLightbox(this)">
-      <img src="./img_020.jpg" alt="Caballos en potrero" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_020.jpg" alt="Caballos en potrero" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Ecuestre</p><p class="photo-title">La espera del alba</p></div>
     </div>
   </div>
@@ -547,38 +554,46 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
   </div>
   <div class="grid-featured fade-in">
         <div class="photo-item tall" style="height:580px" onclick="openLightbox(this)">
-      <img src="./img_058.jpg" alt="Milonga" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_058.jpg" alt="Milonga" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Documental</p><p class="photo-title">Milonga del Toto, Colo y Campo</p></div>
     </div>
         <div class="photo-item" style="height:288px" onclick="openLightbox(this)">
-      <img src="./img_055.jpg" alt="Guitarrista" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_055.jpg" alt="Guitarrista" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Música</p><p class="photo-title">El sonido visible</p></div>
     </div>
         <div class="photo-item" style="height:288px" onclick="openLightbox(this)">
-      <img src="./img_057.jpg" alt="Pesca" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_075.jpg" alt="Bajista en vivo" loading="lazy">
+      <div class="photo-overlay"><p class="photo-cat">Música</p><p class="photo-title">La noche eléctrica</p></div>
+    </div>
+        <div class="photo-item" style="height:288px" onclick="openLightbox(this)">
+      <img src="https://animafotografia96.github.io/img_057.jpg" alt="Pesca" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Documental</p><p class="photo-title">La espera</p></div>
     </div>
         <div class="photo-item" style="height:288px" onclick="openLightbox(this)">
-      <img src="./img_059.jpg" alt="Fuego" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_059.jpg" alt="Fuego" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Documental</p><p class="photo-title">El fuego cotidiano</p></div>
     </div>
         <div class="photo-item" style="height:288px" onclick="openLightbox(this)">
-      <img src="./img_056.jpg" alt="Grupo noche" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_056.jpg" alt="Grupo noche" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Documental</p><p class="photo-title">La noche que une</p></div>
     </div>
   </div>
   <div class="grid-masonry fade-in" style="margin-top:2px">
     <div class="photo-item" style="height:400px" onclick="openLightbox(this)">
-      <img src="./img_060.jpg" alt="Mujer sombrero laguna" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_060.jpg" alt="Mujer sombrero laguna" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Viaje</p><p class="photo-title">Al borde del horizonte</p></div>
     </div>
     <div class="photo-item" style="height:400px" onclick="openLightbox(this)">
-      <img src="./img_061.jpg" alt="Interior luz dorada sillas" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_061.jpg" alt="Interior luz dorada sillas" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Espacios</p><p class="photo-title">La hora dorada interior</p></div>
     </div>
     <div class="photo-item" style="height:400px" onclick="openLightbox(this)">
-      <img src="./img_062.jpg" alt="Hombre en ruinas Medio Oriente" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_062.jpg" alt="Hombre en ruinas Medio Oriente" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Documental</p><p class="photo-title">Entre paredes de otra era</p></div>
+    </div>
+    <div class="photo-item" style="height:400px" onclick="openLightbox(this)">
+      <img src="https://animafotografia96.github.io/img_050.jpg" alt="Mano y pata de perro" loading="lazy">
+      <div class="photo-overlay"><p class="photo-cat">Documental</p><p class="photo-title">El vínculo</p></div>
     </div>
   </div>
 
@@ -590,23 +605,23 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
   </div>
   <div class="grid-featured fade-in">
         <div class="photo-item tall" style="height:640px" onclick="openLightbox(this)">
-      <img src="./img_040.jpg" alt="Edificio árabe" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_040.jpg" alt="Edificio árabe" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Arquitectura</p><p class="photo-title">Geometría sagrada</p></div>
     </div>
         <div class="photo-item" style="height:318px" onclick="openLightbox(this)">
-      <img src="./img_041.jpg" alt="Hombre hojas" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_041.jpg" alt="Hombre hojas" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Retrato</p><p class="photo-title">La sonrisa que atraviesa</p></div>
     </div>
         <div class="photo-item" style="height:318px" onclick="openLightbox(this)">
-      <img src="./img_042.jpg" alt="Barista" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_042.jpg" alt="Barista" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Documental</p><p class="photo-title">El ritual del café</p></div>
     </div>
         <div class="photo-item" style="height:318px" onclick="openLightbox(this)">
-      <img src="./img_043.jpg" alt="Hombre calle" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_043.jpg" alt="Hombre calle" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Retrato urbano</p><p class="photo-title">Presente</p></div>
     </div>
         <div class="photo-item" style="height:318px" onclick="openLightbox(this)">
-      <img src="./img_044.jpg" alt="Hombre palmeras" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_044.jpg" alt="Hombre palmeras" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Retrato urbano</p><p class="photo-title">Entre dos mundos</p></div>
     </div>
   </div>
@@ -619,23 +634,23 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
   </div>
   <div class="grid-featured fade-in">
         <div class="photo-item tall" style="height:600px" onclick="openLightbox(this)">
-      <img src="./img_045.jpg" alt="Catedral La Plata" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_045.jpg" alt="Catedral La Plata" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Drone</p><p class="photo-title">La Plata desde arriba</p></div>
     </div>
         <div class="photo-item" style="height:298px" onclick="openLightbox(this)">
-      <img src="./img_046.jpg" alt="Kuwait atardecer" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_046.jpg" alt="Kuwait atardecer" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Drone</p><p class="photo-title">Ciudad al atardecer</p></div>
     </div>
         <div class="photo-item" style="height:298px" onclick="openLightbox(this)">
-      <img src="./img_047.jpg" alt="Caballos drone" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_047.jpg" alt="Caballos drone" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Drone</p><p class="photo-title">Sombras y cuerpos</p></div>
     </div>
         <div class="photo-item" style="height:298px" onclick="openLightbox(this)">
-      <img src="./img_048.jpg" alt="Campo drone" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_048.jpg" alt="Campo drone" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Drone</p><p class="photo-title">Geometría rural</p></div>
     </div>
         <div class="photo-item" style="height:298px" onclick="openLightbox(this)">
-      <img src="./img_049.jpg" alt="Montañas" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_049.jpg" alt="Montañas" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Paisaje</p><p class="photo-title">La montaña respira</p></div>
     </div>
   </div>
@@ -649,24 +664,24 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
   </div>
   <div class="grid-featured fade-in">
     <div class="photo-item tall" style="height:620px" onclick="openLightbox(this)">
-      <img src="./img_054.jpg" alt="Perro atardecer campo" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_054.jpg" alt="Perro atardecer campo" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Fauna</p><p class="photo-title">El centinela del ocaso</p></div>
     </div>
     <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_053.jpg" alt="Halcón en vuelo" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_053.jpg" alt="Halcón en vuelo" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Fauna</p><p class="photo-title">El instante del despegue</p></div>
     </div>
     <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_051.jpg" alt="Cangrejo y pez en marea" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_051.jpg" alt="Cangrejo y pez en marea" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Naturaleza</p><p class="photo-title">El mundo a ras del agua</p></div>
     </div>
     <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_052.jpg" alt="Pez en roca" loading="lazy">
+      <img src="https://animafotografia96.github.io/img_052.jpg" alt="Pez en roca" loading="lazy">
       <div class="photo-overlay"><p class="photo-cat">Naturaleza</p><p class="photo-title">El salto de la marea</p></div>
     </div>
     <div class="photo-item" style="height:308px" onclick="openLightbox(this)">
-      <img src="./img_050.jpg" alt="Mano anillo pata animal" loading="lazy">
-      <div class="photo-overlay"><p class="photo-cat">Detalle</p><p class="photo-title">El vínculo invisible</p></div>
+      <img src="https://animafotografia96.github.io/img_076.jpg" alt="Colibrí en rama" loading="lazy">
+      <div class="photo-overlay"><p class="photo-cat">Fauna</p><p class="photo-title">Plumaje de oro</p></div>
     </div>
   </div>
 
@@ -677,15 +692,15 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
 <!-- SOBRE MÍ -->
 <section id="sobre-mi" class="about fade-in">
   <div class="about-img-wrap">
-    <img src="./img_063.jpg" alt="Veleta">
+    <img src="https://animafotografia96.github.io/img_063.jpg" alt="Veleta">
   </div>
   <div class="about-text">
     <p class="eyebrow">02 — Sobre mí</p>
     <h2>Una vida<br>hecha imagen</h2>
     <p>Desde temprana edad las artes gráficas fueron mi forma de entender el mundo: el dibujo, la pintura, la escritura. Siempre hubo en mí una necesidad de traducir lo que veía en algo que otros pudieran sentir.</p>
-    <p>En mis primeros años veinte viví en Medio Oriente, donde la cámara apareció como la herramienta más honesta que encontré para capturar la intensidad de lo que me rodeaba. Ahí empezó todo. Desde entonces viajé, viví en Praga, volví a Argentina, y cada lugar dejó una capa distinta en mi manera de mirar.</p>
-    <p>Hoy trabajo desde La Plata con una convicción simple: los detalles que la mayoría ignora son los que le dan alma a los momentos, los lugares y las personas. Mi fotografía es una invitación a ver eso.</p>
-    <p>Disponible para bodas, retratos, eventos y contenido gastronómico en La Plata y Buenos Aires.</p>
+    <p>En mis primeros años veinte viví en Medio Oriente, donde la cámara apareció como la herramienta más honesta para capturar la intensidad de lo que me rodeaba. Ahí empezó todo. Desde entonces viajé, viví en Praga, volví a Argentina, y cada lugar dejó una capa distinta en mi manera de mirar.</p>
+    <p>Mi trabajo es esencialmente documental: me interesa la relación entre las personas y sus pasiones, los lugares donde ejercen su oficio, la conexión con su historia y lo que hacen. Esa tensión entre el ser y el hacer es lo que busco en cada imagen.</p>
+    <p>Trabajo con marcas, restaurantes, bares y emprendedores que necesitan que su identidad sea visible. También con eventos, bodas y con quienes simplemente quieren que su historia quede bien contada.</p>
   </div>
 </section>
 
@@ -705,18 +720,33 @@ footer p{font-size:0.65rem;letter-spacing:0.15em;color:var(--fg2)}
   <div class="services-grid">
     <div class="service-item">
       <p class="service-num">01</p>
-      <h3 class="service-name">Bodas & Eventos</h3>
-      <p class="service-desc">Cobertura completa de bodas, casamientos y celebraciones. Cada momento irrepetible, documentado con mirada propia.</p>
+      <h3 class="service-name">Documental & Marca</h3>
+      <p class="service-desc">Narrativa visual para marcas, emprendimientos y proyectos. Capturo la identidad real de lo que hacés: el proceso, el espacio, las personas detrás.</p>
     </div>
     <div class="service-item">
       <p class="service-num">02</p>
-      <h3 class="service-name">Retratos</h3>
-      <p class="service-desc">Sesiones individuales, de pareja y familia. Fotografía que muestra quién sos, no solo cómo te ves.</p>
+      <h3 class="service-name">Gastronomía & Bares</h3>
+      <p class="service-desc">Fotografía para restaurantes, bares y productores. Platos, ambiente, equipo y ritual. Contenido que comunica antes de que alguien pruebe lo que ofrecés.</p>
     </div>
     <div class="service-item">
       <p class="service-num">03</p>
-      <h3 class="service-name">Gastronomía & Producto</h3>
-      <p class="service-desc">Contenido visual para restaurantes, bares y marcas. Iluminación, composición y narrativa para hacer que tu producto hable.</p>
+      <h3 class="service-name">Eventos & Bodas</h3>
+      <p class="service-desc">Cobertura documental de bodas, celebraciones y eventos. Sin poses forzadas: el día tal como fue, con toda su carga y belleza.</p>
+    </div>
+    <div class="service-item">
+      <p class="service-num">04</p>
+      <h3 class="service-name">Oficios & Maestros</h3>
+      <p class="service-desc">Proyectos documentales sobre personas y su trabajo. El barbero, el cocinero, el soldador, el artesano — historias contadas desde adentro.</p>
+    </div>
+    <div class="service-item">
+      <p class="service-num">05</p>
+      <h3 class="service-name">Contenido para Redes</h3>
+      <p class="service-desc">Pack de imágenes pensadas para Instagram, sitio web y comunicación digital. Visual consistente que construye identidad.</p>
+    </div>
+    <div class="service-item">
+      <p class="service-num">06</p>
+      <h3 class="service-name">Drone & Perspectiva Aérea</h3>
+      <p class="service-desc">Tomas cenitales para eventos, propiedades, campos y proyectos que necesitan mostrar escala, contexto y territorio.</p>
     </div>
   </div>
 </section>
